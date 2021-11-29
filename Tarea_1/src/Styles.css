@@ -1,0 +1,63 @@
+body{
+    background-image: url(../src/assets/Borroso2.jpg);
+    background-size: cover;
+}
+
+.login{
+    width: 350px;
+    background-color: #111111bd;
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #0c0c0c ;
+    opacity: 0.4;
+}
+
+.login input checbox{
+    margin-top: 20%;
+}
+
+.login h4{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    opacity: 100;
+}
+
+.controls{
+    width: 100%;
+    padding :2px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.login p{
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.login .btn {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+}

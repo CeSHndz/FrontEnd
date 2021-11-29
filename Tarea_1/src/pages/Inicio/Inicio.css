@@ -1,0 +1,118 @@
+.principal {
+  background-image: url(../../assets/fondo.jpg);
+  background-size: cover;
+  height: 100vh; /* AGREGAMOS EL 100VH AL CONTENEDOR PRINCIPAL PARA QUE TODA
+                    LA PAGINA SEA LA QUE ABARQUE 
+                    LA PNATLLA Y NO SOLO UNA PARTE */
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.header {
+  background-color: rgb(218, 218, 218);
+  color: rgb(61, 61, 61);
+  display: flex;
+  padding: 10px;
+
+  /* LE AGRREGAMOS UN MARGIN INFERIOR AL HEADER PARA QUE 
+  NADA SALGA PEGADO AL HEADER */
+  margin-bottom: 50px;
+}
+
+.brand-logo {
+  width: 75%;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.navegador {
+  font-size: 25px;
+}
+
+.navegador a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  margin-left: 10px;
+  transition: all 0.8s;
+}
+
+.navegador a:hover {
+  font-size: 35px;
+  color: rgb(61, 61, 61);
+}
+
+.vcenter {
+  font-display: flex;
+  align-items: center;
+}
+
+.container-flex {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.box {
+  /* LE QUITAMOS LA ALTURA FIJA AL CONTAINER PARA QUE SE ADAPTE A SU CONTENIDO */
+  width: 50%;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.4;
+  padding: 2%;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  font-size: 50px;
+}
+
+h3,
+h4 {
+  text-align: left;
+  color: white;
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+.box img {
+  width: 45%;
+  height: 100%;
+  margin-left: 50%;
+  margin-top: -21%;
+}
